@@ -18,11 +18,11 @@ Este script Bash cria um túnel SSH para comunicação segura entre duas VPS, fa
    ```
 
 2. **Configurar o Script**:
-   Edite o arquivo `script.sh` e defina as variáveis `SSH_HOST` e `SSH_PORT` com o IP e a porta do servidor SSH de destino.
+   Edite o arquivo `redis.sh` e defina as variáveis `SSH_HOST` e `SSH_PORT` com o IP e a porta do servidor SSH de destino.
 
 3. **Executar o Script**:
    ```bash
-   ./script.sh
+   ./redis.sh
    ```
 
    Este script cria um túnel SSH entre seu sistema e o servidor de destino, redirecionando a porta `6379` (exemplo do Redis) para o mesmo endereço no servidor. Se você quiser usar outra porta ou outro serviço, basta ajustar as portas no comando `ssh -N -L`.
@@ -52,11 +52,11 @@ This Bash script creates an SSH tunnel to securely connect two VPSs, allowing ac
    ```
 
 2. **Configure the Script**:
-   Edit the `script.sh` file and set the `SSH_HOST` and `SSH_PORT` variables with the IP and port of the target SSH server.
+   Edit the `redis.sh` file and set the `SSH_HOST` and `SSH_PORT` variables with the IP and port of the target SSH server.
 
 3. **Run the Script**:
    ```bash
-   ./script.sh
+   ./redis.sh
    ```
 
    This script creates an SSH tunnel between your system and the target server, forwarding port `6379` (example for Redis) to the same address on the server. If you want to use another port or service, simply adjust the ports in the `ssh -N -L` command.
