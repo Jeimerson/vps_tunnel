@@ -13,7 +13,7 @@ Este script Bash cria um túnel SSH para comunicação segura entre duas VPS, fa
 ### Como Usar
 1. **Clonar o Repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/ssh-tunnel-script.git
+   git clone https://github.com/Jeimerson/ssh-tunnel-script.git
    cd ssh-tunnel-script
    ```
 
@@ -47,7 +47,7 @@ This Bash script creates an SSH tunnel to securely connect two VPSs, allowing ac
 ### Usage
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/ssh-tunnel-script.git
+   git clone https://github.com/Jeimerson/ssh-tunnel-script.git
    cd ssh-tunnel-script
    ```
 
