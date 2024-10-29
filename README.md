@@ -36,6 +36,8 @@ O uso deste script é de total responsabilidade do usuário. O autor não assume
 
 ---
 
+## Description (English) 🇺🇸
+
 This Bash script creates an SSH tunnel to securely connect two VPSs, allowing access to specific services. In the example provided, it is configured to create a tunnel for Redis, but it can be used for any other service between VPSs, such as databases, web services, and more.
 
 ### Requirements
