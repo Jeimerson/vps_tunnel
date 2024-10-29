@@ -14,7 +14,7 @@ Este script Bash cria um túnel SSH para comunicação segura entre duas VPS, fa
 1. **Clonar o Repositório**:
    ```bash
    git clone https://github.com/Jeimerson/vps_tunnel.git
-   cd ssh-tunnel-script
+   cd vps_tunnel
    ```
 
 2. **Configurar o Script**:
@@ -48,7 +48,7 @@ This Bash script creates an SSH tunnel to securely connect two VPSs, allowing ac
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/Jeimerson/vps_tunnel.git
-   cd ssh-tunnel-script
+   cd vps_tunnel
    ```
 
 2. **Configure the Script**:
